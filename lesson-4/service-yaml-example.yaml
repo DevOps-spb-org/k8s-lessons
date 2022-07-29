@@ -3,14 +3,14 @@ kind: Service
 metadata:
   name: SERVICE_NAME
   labels:
-    env  : ENV_NAME
+    env: ENV_NAME
     owner: AUTHOR_NAME
 spec:
   selector:
     project: LABEL_NAME  # Выбор подов с этим лейблом
   ports:
-    - name      : NAME
-      protocol  : PROTOCOL
-      port      : PORT_NUM  # Порт на Load Balancer
+    - name: NAME
+      protocol: PROTOCOL
+      port: PORT_NUM  # Порт на Load Balancer
       targetPort: PORT_NUM  # Порт на подах
   type: SERVICE_TYPE
