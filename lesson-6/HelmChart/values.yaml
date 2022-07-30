@@ -1,0 +1,6 @@
+﻿# Значения по умолчанию для нашего Helm Chart
+
+container:
+  image: IMAGE_NAME
+
+replicaCount: NUM_OF_REPLICAS

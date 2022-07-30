@@ -1,0 +1,16 @@
+﻿apiVersion: v2
+name: CHART_NAME
+description: CHART_DESCRIPTION
+type: application
+version: 0.1.0  # Версия Helm Chart
+appVersion: "1.2.3"  # Версия приложения
+
+keywords:
+  - apache
+  - http
+  - https
+
+maintainers:
+  - name: AUTHOR_NAME
+    email: AUTHOR_EMAIL
+    url: AUTHOR_URL
